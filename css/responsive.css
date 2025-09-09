@@ -1,0 +1,161 @@
+@media (max-width: 1000px) {
+  h2.main-title {
+    font-size: 3rem;
+    line-height: 1;
+    width: fit-content;
+    margin: auto;
+  }
+
+  header {
+    background-image: none;
+    background-color: var(--yellowColor);
+  }
+
+  .header-menu {
+    display: none;
+  }
+
+  header > .interface-container {
+    /* justify-content: end; */
+    flex-direction: row-reverse;
+  }
+
+  section.container-hero {
+    background-image: linear-gradient(
+      to top,
+      var(--darkColor) 90%,
+      var(--yellowColor) 10%
+    );
+    padding: 9rem 1.5rem 0;
+  }
+
+  .container-hero .interface-container {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .container-about-me .container-text-about-me {
+    width: 100%;
+  }
+
+  .container-hero .container-content-hero h1 {
+    font-size: 2rem;
+  }
+
+  .container-hero .container-content-hero h1 span {
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+
+  .container-hero .container-content-hero button {
+    width: 220px;
+    height: 50px;
+  }
+  .container-hero .container-content-hero p {
+    font-size: 1.2rem;
+  }
+
+  .container-hero .container-img-hero img {
+    max-width: 300px;
+  }
+
+  section.container-about-me {
+    padding: 7rem 1.5rem;
+  }
+
+  .container-about-me .img-about-me {
+    width: 100%;
+    text-align: center;
+  }
+
+  .container-about-me .img-about-me img {
+    max-width: 350px;
+  }
+
+  .container-about-me .interface-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .container-about-me .social-links {
+    text-align: left;
+    margin-top: 2rem;
+  }
+
+  section.skills {
+    padding: 7rem 1.5rem;
+  }
+
+  .skills article {
+    grid-template: 1fr 1fr 1fr / 1fr;
+  }
+
+  .skills .my-skills {
+    flex-grow: 1;
+    flex-basis: 200px;
+  }
+
+  section.portfolio {
+    padding: 7rem 1.5rem;
+  }
+
+  .portfolio p {
+    margin-bottom: 3rem;
+    text-align: right;
+  }
+
+  .portfolio-container {
+    grid-template: 1fr 1fr 1fr 1fr / 1fr;
+    gap: 3rem;
+  }
+
+  .portfolio-container .portfolio-box {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  section.contacts {
+    padding: 7rem 1.5rem;
+  }
+
+  section .contact-info p {
+    margin-top: 1rem;
+    padding: 0 1rem;
+  }
+
+  .contacts > .interface-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .contacts form {
+    width: 100%;
+  }
+
+  .contacts form .input-group {
+    display: block;
+  }
+
+  footer .footer-container {
+    flex-direction: column-reverse;
+    gap: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  footer p {
+    text-align: center;
+  }
+
+  footer p a {
+    text-decoration: none;
+    color: var(--lightColor);
+    transition: 0.4s;
+  }
+
+  .btn-menu-mobile,
+  .header-menu-mobile {
+    display: block;
+  }
+}

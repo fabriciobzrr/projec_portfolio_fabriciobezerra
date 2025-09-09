@@ -1,0 +1,59 @@
+/* Transparency Header */
+
+#header.transparent {
+  background-color: transparent;
+  transition: 0.5s;
+}
+
+#header.transparent a {
+  color: var(--lightColor);
+  transition: 0.5s;
+}
+
+#header.transparent a:hover {
+  color: var(--yellowColor);
+}
+
+#header.transparent button {
+  color: var(--lightColor);
+  border-color: var(--lightColor);
+  transition: 0.5s;
+}
+
+#header.transparent button:hover {
+  color: var(--darkColor);
+  background-color: var(--yellowColor);
+}
+
+#header.transparent img {
+  transition: 0.5s;
+}
+
+#header.solid {
+  background-color: var(--yellowColor);
+  transition: 0.5s;
+}
+
+#header.solid a {
+  color: var(--darkColor);
+  transition: 0.5s;
+}
+
+#header.solid a:hover {
+  color: var(--lightColor);
+}
+
+#header.solid button {
+  color: var(--darkColor);
+  border-color: var(--darkColor);
+  transition: 0.5s;
+}
+
+#header.solid button:hover {
+  color: var(--yellowColor);
+}
+
+#header.solid img {
+  transform: scale(0.9);
+  transition: 0.5s;
+}

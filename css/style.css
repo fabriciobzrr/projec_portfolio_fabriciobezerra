@@ -1,0 +1,508 @@
+/* Estilos globais */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --yellowColor: #fec600;
+  --darkColor: #222222;
+  --lightColorTransparent: #eeeeee69;
+  --lightColor: #eeeeee;
+  --blackColor: #000000;
+  --text-color: #cdcdcd;
+}
+
+body {
+  background-color: var(--blackColor);
+}
+
+button {
+  background-color: transparent;
+  border: 2px solid var(--lightColor);
+  border-radius: 1rem;
+  color: var(--lightColor);
+  cursor: pointer;
+  transition: 0.4s;
+  font-size: 1.2rem;
+}
+
+button:hover {
+  color: var(--darkColor);
+  background-color: var(--yellowColor);
+}
+
+h2.main-title {
+  font-size: 4rem;
+  color: var(--lightColor);
+  margin-top: 4rem;
+}
+
+h2.main-title span {
+  color: var(--yellowColor);
+}
+
+/* Header */
+
+.interface-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: var();
+  padding: 1rem 0;
+  position: fixed;
+  width: 100%;
+  background-image: linear-gradient(
+    to left,
+    var(--darkColor) 70%,
+    var(--yellowColor) 30%
+  );
+  z-index: 10;
+}
+
+header > .interface-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+}
+
+header #header-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header #header-logo img {
+  max-width: 200px;
+}
+
+header nav.header-menu ul {
+  display: flex;
+  align-items: center;
+  gap: 3.5rem;
+  list-style: none;
+}
+
+header nav.header-menu a {
+  text-decoration: none;
+  color: var(--lightColor);
+  font-size: 1.2rem;
+  transition: 0.5s;
+}
+
+header nav.header-menu a:hover {
+  color: var(--yellowColor);
+}
+
+header nav.header-menu button {
+  width: 150px;
+  height: 50px;
+}
+
+header nav.header-menu button:hover {
+  color: var(--yellowColor);
+  background-color: var(--darkColor);
+}
+
+/* Menu Lateral */
+
+.btn-menu-mobile,
+.header-menu-mobile {
+  display: none;
+}
+
+.btn-menu-mobile i {
+  font-size: 3rem;
+  color: var(--darkColor);
+}
+
+.header-menu-mobile {
+  position: fixed;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--darkColor);
+  text-align: right;
+  padding: 2rem 0;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.header-menu-mobile ul {
+  list-style: none;
+  padding: 4rem 0;
+}
+
+.header-menu-mobile ul li a {
+  text-decoration: none;
+  color: var(--yellowColor);
+  font-size: 1.5rem;
+  padding: 2rem;
+  display: block;
+  transition: 0.3s;
+}
+
+.header-menu-mobile ul li a:hover {
+  background-color: var(--yellowColor);
+  color: var(--darkColor);
+}
+
+#header-menu-mobile .bi-x-lg {
+  font-size: 2rem;
+  line-height: 0;
+  color: var(--yellowColor);
+  padding-right: 2rem;
+}
+
+.header-menu-mobile.open-menu {
+  right: 0;
+  pointer-events: initial;
+}
+
+/* Hero */
+
+section.container-hero {
+  background-image: linear-gradient(
+    to left,
+    var(--darkColor) 70%,
+    var(--yellowColor) 30%
+  );
+  padding: 9rem 0 0;
+}
+
+.container-hero .interface-container {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+.container-hero .container-img-hero {
+  line-height: 0;
+}
+
+.container-hero .container-content-hero h1 {
+  color: var(--lightColor);
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.container-hero .container-content-hero h1 span {
+  display: block;
+  color: var(--yellowColor);
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.container-hero .container-content-hero p {
+  color: var(--lightColor);
+  line-height: 1.5;
+  font-size: 1.3rem;
+  margin: 1.5rem 0;
+}
+
+.container-hero .container-content-hero button {
+  width: 220px;
+  height: 50px;
+}
+
+/* About Me */
+
+section.container-about-me {
+  padding: 5rem 0rem;
+}
+
+.container-about-me .interface-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 1rem; */
+}
+
+.container-about-me .container-text-about-me {
+  width: 50%;
+}
+
+.container-about-me .container-text-about-me p {
+  width: 100%;
+  color: var(--text-color);
+  text-align: justify;
+  line-height: 1.5;
+  margin: 1.5rem 0;
+}
+
+.container-about-me .social-links {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.container-about-me .img-about-me {
+  width: 40%;
+}
+
+.container-about-me .social-links button {
+  width: 60px;
+  height: 60px;
+  font-size: 1.5rem;
+}
+
+/* Habilidades */
+
+section.skills {
+  padding: 5rem 0;
+  background-color: var(--darkColor);
+}
+
+.skills article {
+  display: grid;
+  grid-template: 1fr / 1fr 1fr 1fr;
+  width: 100%;
+  gap: 1rem;
+  margin: 3rem auto;
+}
+
+.skills .my-skills {
+  background-color: var(--blackColor);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 15px #ffffff17;
+}
+
+.skills .icons-skills {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.my-skills .icons-skills img {
+  max-width: 80px;
+  border-radius: 0.5rem;
+}
+
+.my-skills .icons-skills h3 {
+  color: var(--lightColor);
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.my-skills .icons-skills h3 span {
+  margin: 0;
+  color: var(--yellowColor);
+}
+
+.my-skills p {
+  text-align: justify;
+  color: var(--text-color);
+}
+
+.skills .btn-contact {
+  text-align: center;
+}
+
+.skills .btn-contact button {
+  margin-top: 2rem;
+  width: 200px;
+  height: 50px;
+}
+
+/* Portfolio */
+
+section.portfolio {
+  padding: 5rem 0;
+}
+
+.portfolio p {
+  color: var(--text-color);
+  margin-bottom: 2.5rem;
+  text-decoration: underline;
+  text-align: left;
+}
+
+.portfolio-container {
+  display: grid;
+  grid-template: 1fr / 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  margin: 0 auto;
+}
+
+.portfolio-container .portfolio-box {
+  width: 334px;
+  height: 500px;
+  border-radius: 10px;
+  border: 1px solid var(--yellowColor);
+  background-size: cover;
+  background-position-y: 0%;
+  position: relative;
+}
+
+.portfolio-container .portfolio-box .portfolio-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--lightColorTransparent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  opacity: 0;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.portfolio-container .portfolio-box .portfolio-info:hover {
+  opacity: 1;
+}
+
+.portfolio-container .portfolio-box:hover {
+  background-position-y: 100%;
+  transform: scale(1.05);
+}
+
+.portfolio-container a {
+  text-decoration: none;
+  color: var(--darkColor);
+}
+
+.portfolio-container .img1 {
+  background-image: url(../img/portfolio/projeto1.webp);
+  transition: background-position-y 6s, transform 0.3s;
+}
+.portfolio-container .img2 {
+  background-image: url(../img/portfolio/projeto2.webp);
+  transition: background-position-y 6s, transform 0.3s;
+}
+.portfolio-container .img3 {
+  background-image: url(../img/portfolio/projeto3.png);
+  transition: background-position-y 5s, transform 0.3s;
+}
+.portfolio-container .img4 {
+  background-image: url(../img/portfolio/projeto4.png);
+  transition: background-position-y 3s, transform 0.3s;
+}
+
+/* Contatos */
+
+section.contacts {
+  padding: 5rem 0;
+  background-color: var(--darkColor);
+}
+
+.contacts > .interface-container {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+section .contact-info p {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.2rem;
+  color: var(--lightColor);
+}
+
+section .contact-info a {
+  text-decoration: none;
+  color: var(--lightColor);
+  font-size: 2rem;
+}
+
+.contacts form {
+  width: 50%;
+}
+
+.contacts form input,
+.contacts form textarea {
+  display: block;
+  padding: 1rem 0.5rem;
+  width: 100%;
+  margin-bottom: 0.725rem;
+  background-color: transparent;
+  border: 1px solid var(--yellowColor);
+  outline: none;
+  color: var(--lightColor);
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+.contacts form .input-group {
+  display: flex;
+  gap: 0.725rem;
+}
+
+.contacts form textarea {
+  resize: none;
+  height: 150px;
+}
+
+.contacts form input[type="submit"] {
+  cursor: pointer;
+  transition: 0.4s;
+  color: var(--lightColor);
+}
+
+.contacts form input[type="submit"]:hover {
+  background-color: var(--yellowColor);
+  color: var(--blackColor);
+}
+
+/* Footer */
+
+footer {
+  padding: 3rem 0;
+  background-color: var(--blackColor);
+}
+
+footer .footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .logo-footer img {
+  width: 200px;
+  padding: 1rem 0;
+}
+
+.footer-container .social-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-container .social-links button {
+  width: 60px;
+  height: 60px;
+  font-size: 1.5rem;
+}
+
+footer p {
+  color: var(--text-color);
+}
+
+footer p a {
+  text-decoration: none;
+  color: var(--lightColor);
+  transition: 0.4s;
+}
+
+footer p a:hover {
+  color: var(--yellowColor);
+}
