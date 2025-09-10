@@ -406,11 +406,18 @@ section.contacts {
 
 .contacts > .interface-container {
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   justify-content: space-between;
 }
 
+section .contacts-content {
+  padding: 2rem;
+  margin-top: 2rem;
+  background-color: #00000049;
+}
+
 section .contact-info p {
+  margin-top: 1rem;
   display: flex;
   align-items: center;
   gap: 1rem;
