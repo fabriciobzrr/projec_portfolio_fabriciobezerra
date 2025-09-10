@@ -328,7 +328,6 @@ section.portfolio {
 .portfolio p {
   color: var(--text-color);
   margin-bottom: 2.5rem;
-  text-decoration: underline;
   text-align: left;
 }
 
