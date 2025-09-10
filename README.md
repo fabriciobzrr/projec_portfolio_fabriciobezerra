@@ -35,7 +35,7 @@ Portfólio é um projeto desenvolvido para apresentar de forma moderna e funcion
 
 ## 📝 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://i.ibb.co/BVbf6GHT/fabriciobezerra.png).
+Você pode visualizar o layout do projeto através do link: [Layout Portfólio Fabricio Bezerra](https://i.ibb.co/BVbf6GHT/fabriciobezerra.png).
 
 ## 📄 Licença
 
