@@ -428,6 +428,11 @@ section .contact-info a {
   text-decoration: none;
   color: var(--lightColor);
   font-size: 2rem;
+  transition: 0.4s;
+}
+
+section .contact-info a:hover {
+  color: var(--yellowColor);
 }
 
 .contacts form {
