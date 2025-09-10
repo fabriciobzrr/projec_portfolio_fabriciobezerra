@@ -21,7 +21,7 @@ Projeto desenvolvido por <a href="https://github.com/fabriciobzrr" target="_blan
   <img alt="Projeto MyLinks | Dev" src=".github/preview.png" width="100%">
 </p>
 
-## 🚀 Tecnologias
+## 💻 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -29,7 +29,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - JavaScript
 - Git e Github
 
-## 💻 Projeto
+## 🤖 Projeto
 
 Portfólio é um projeto desenvolvido para apresentar de forma moderna e funcional minha trajetória como desenvolvedor front-end. Reúne informações pessoais, habilidades técnicas, projetos realizados e formas de contato em um só lugar. O objetivo é criar uma identidade digital clara, organizada e acessível, permitindo que qualquer pessoa conheça rapidamente quem sou, as tecnologias que domino e o tipo de experiência web que busco entregar.
 
