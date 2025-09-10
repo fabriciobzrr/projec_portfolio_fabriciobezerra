@@ -1,4 +1,4 @@
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
   h2.main-title {
     font-size: 3rem;
     line-height: 1;
@@ -24,7 +24,7 @@
       var(--darkColor) 90%,
       var(--yellowColor) 10%
     );
-    padding: 9rem 1.5rem 0;
+    padding: 9rem 0 0;
   }
 
   .container-hero .interface-container {
@@ -55,11 +55,7 @@
   }
 
   .container-hero .container-img-hero img {
-    max-width: 300px;
-  }
-
-  section.container-about-me {
-    padding: 5rem 1.5rem;
+    width: 100%;
   }
 
   .container-about-me .img-about-me {
@@ -68,7 +64,7 @@
   }
 
   .container-about-me .img-about-me img {
-    max-width: 350px;
+    width: 100%;
   }
 
   .container-about-me .interface-container {
@@ -81,51 +77,25 @@
     margin-top: 2rem;
   }
 
-  section.skills {
-    padding: 5rem 1.5rem;
-  }
-
-  .skills article {
+  .skills-grid {
     grid-template: 1fr 1fr 1fr / 1fr;
   }
 
   .skills .my-skills {
-    flex-grow: 1;
-    flex-basis: 200px;
+    padding: 1rem;
   }
 
-  section.portfolio {
-    padding: 5rem 1.5rem;
-  }
-
-  .portfolio p {
-    margin-bottom: 3rem;
-    text-align: center;
-  }
-
-  .portfolio-container {
-    grid-template: 1fr 1fr 1fr 1fr / 1fr;
-    gap: 3rem;
-  }
-
-  .portfolio-container .portfolio-box {
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  section.contacts {
-    padding: 5rem 1.5rem;
-  }
-
-  section .contact-info p {
-    margin-top: 1rem;
-    padding: 0 1rem;
+  .my-skills .icons-skills img {
+    max-width: 50px;
+    border-radius: 0.5rem;
   }
 
   .contacts > .interface-container {
     flex-direction: column;
-    align-items: center;
-    gap: 3rem;
+  }
+
+  section .contacts-content {
+    margin: 2rem 0;
   }
 
   .contacts form {
