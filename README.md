@@ -1,4 +1,4 @@
-<h1 align="center"> Fabricio Bezerra | Portfólio </h1>
+<h1 align="center"> Fabricio Bezerra | Portfólio 🗂️ </h1>
 
 <p align="center">
 Projeto desenvolvido por <a href="https://github.com/fabriciobzrr" target="_blank">Fabricio Bezerra</a> com o propósito de criar um portfólio para postagem de projetos pessoais e também com o intuito de utilizar os conhecimentos adquiridos ao longo de sua jornada de aprendizado.
@@ -8,7 +8,7 @@ Projeto desenvolvido por <a href="https://github.com/fabriciobzrr" target="_blan
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#-licença">Licença</a>
 </p>
 
 <p align="center">
@@ -21,7 +21,7 @@ Projeto desenvolvido por <a href="https://github.com/fabriciobzrr" target="_blan
   <img alt="Projeto MyLinks | Dev" src=".github/preview.png" width="100%">
 </p>
 
-## 🚀 Tecnologias
+## 🤖 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -29,11 +29,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - JavaScript
 - Git e Github
 
-## 💻 Projeto
+## 🛠️ Projeto
 
 Portfólio é um projeto desenvolvido para apresentar de forma moderna e funcional minha trajetória como desenvolvedor front-end. Reúne informações pessoais, habilidades técnicas, projetos realizados e formas de contato em um só lugar. O objetivo é criar uma identidade digital clara, organizada e acessível, permitindo que qualquer pessoa conheça rapidamente quem sou, as tecnologias que domino e o tipo de experiência web que busco entregar.
 
-## 🔖 Layout
+## 📝 Layout
 
 Você pode visualizar o layout do projeto através [DESSE LINK](https://i.ibb.co/BVbf6GHT/fabriciobezerra.png).
 
