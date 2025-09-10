@@ -2,8 +2,6 @@
   h2.main-title {
     font-size: 3rem;
     line-height: 1;
-    width: fit-content;
-    margin: auto;
   }
 
   header {
@@ -61,7 +59,7 @@
   }
 
   section.container-about-me {
-    padding: 7rem 1.5rem;
+    padding: 5rem 1.5rem;
   }
 
   .container-about-me .img-about-me {
@@ -84,7 +82,7 @@
   }
 
   section.skills {
-    padding: 7rem 1.5rem;
+    padding: 5rem 1.5rem;
   }
 
   .skills article {
@@ -97,7 +95,7 @@
   }
 
   section.portfolio {
-    padding: 7rem 1.5rem;
+    padding: 5rem 1.5rem;
   }
 
   .portfolio p {
@@ -116,7 +114,7 @@
   }
 
   section.contacts {
-    padding: 7rem 1.5rem;
+    padding: 5rem 1.5rem;
   }
 
   section .contact-info p {

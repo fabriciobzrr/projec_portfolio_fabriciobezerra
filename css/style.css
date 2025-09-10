@@ -399,7 +399,7 @@ section.portfolio {
 /* Contatos */
 
 section.contacts {
-  padding: 5rem 0;
+  padding: 5rem 1.5rem;
   background-color: var(--darkColor);
 }
 
@@ -407,12 +407,6 @@ section.contacts {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-section .contacts-content {
-  padding: 2rem;
-  margin-top: 2rem;
-  background-color: #00000049;
 }
 
 section .contact-info p {
